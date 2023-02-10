@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="rail logo.png" sizes="20px">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <h2>रेल</h2>
+                <h2>Way</h2>
+            </div>
+            <div class="box">
+                <h2>SOURCE</h2>
+                <form action="form.php">
+                    <input type="text" placeholder="---From---">
+                </form>
+                <br>
+                <h2>DESTINATION</h2>
+                <form action="form.php">
+                    <input type="text" placeholder="---To---">
+                </form>
+                <br>
+                <h2>JOURNEY DATE</h2>
+                <form action="form.php">
+                    <input type="date">
+                </form>
+                <br>
+                <h2>QUOTA</h2>
+                <form action="form.php">
+                    <label for="general">
+                        <input type="radio" value="Section a" name="section" id="sectionida">General
+                    </label>
+                    <label for="ladies">
+                        <input type="radio" value="Section b" name="section" id="sectionidb">Ladies
+                    </label>
+                    <label for="tatkal">
+                        <input type="radio" value="Section c" name="section" id="sectionidc">Tatkal
+                    </label>
+                    <br>
+                    <label for="premiumtatkal">
+                        <input type="radio" value="Section d" name="section" id="sectionidd">Premium-Tatkal
+                    </label>
+                </form>
+                <br>
+                <h2>CLASS</h2>
+                <label for="sitting">
+                    <input type="radio" value="Section a" name="section1" id="sectionida">Sitting
+                </label>
+                <label for="sleeper">
+                    <input type="radio" value="Section b" name="section1" id="sectionidb">Sleeper
+                </label>
+                <label for="ac">
+                    <input type="radio" value="Section c" name="section1" id="sectionidc">Ac
+                </label>
+                <br><br>
+                <button id="click">Search</button>
+            </div>
+        </div>
+
+    </header>
+</body>
+
+</html>
